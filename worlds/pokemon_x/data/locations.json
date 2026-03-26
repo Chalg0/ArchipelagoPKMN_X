@@ -1,0 +1,30 @@
+{
+  "NPC_GIFT_TOWN_MAP_MOM": {
+    "label": "Vaniville City - Town Map from Mom",
+    "default_item": "Town Map",
+    "ap_id": 1,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "NPC_GIFT_POTION_MOM": {
+    "label": "Vaniville City - Potion from Mom",
+    "default_item": "Potion",
+    "ap_id": 2,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "NPC_GIFT_POTION_CLERK": {
+    "label": "Aquacorde City - Potion from Clerk",
+    "default_item": "Potion",
+    "ap_id": 3,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "NPC_GIFT_PROFS_LETTER": {
+    "label": "Aquacorde City - Prof's Letter",
+    "default_item": "Prof's Letter",
+    "ap_id": 4,
+    "flag": "",
+    "tags": ["NpcGift"]
+  }
+}

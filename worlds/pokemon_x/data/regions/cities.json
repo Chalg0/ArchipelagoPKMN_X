@@ -1,0 +1,113 @@
+{
+  "REGION_VANIVILLE_TOWN_MAIN": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+      "EVENT_VISITED_VANIVILLE_TOWN"
+    ],
+    "exits": [
+      "REGION_ROUTE_1",
+      "REGION_VANIVILLE_TOWN_GARAGE_HOUSE_F1",
+      "REGION_VANIVILLE_TOWN_PROTAGONIST_HOUSE_F1",
+      "REGION_VANIVILLE_TOWN_RIVAL_HOUSE_F1",
+      "REGION_VANIVILLE_TOWN_PROTAGONIST_HOUSE_PROF_LETTER"
+    ]
+  },
+  "REGION_VANIVILLE_TOWN_GARAGE_HOUSE_F1": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_VANIVILLE_TOWN_MAIN",
+      "REGION_VANIVILLE_TOWN_GARAGE_HOUSE_F2"
+    ]
+  },
+  "REGION_VANIVILLE_TOWN_GARAGE_HOUSE_F2": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_VANIVILLE_TOWN_GARAGE_HOUSE_F1"
+    ]
+  },
+  "REGION_VANIVILLE_TOWN_PROTAGONIST_HOUSE_F1": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_VANIVILLE_TOWN_MAIN",
+      "REGION_VANIVILLE_TOWN_PROTAGONIST_HOUSE_F2"
+    ]
+  },
+  "REGION_VANIVILLE_TOWN_PROTAGONIST_HOUSE_F2": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_VANIVILLE_TOWN_PROTAGONIST_HOUSE_F1"
+    ]
+  },
+    "REGION_VANIVILLE_TOWN_PROTAGONIST_HOUSE_PROF_LETTER": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": ["NPC_GIFT_POTION_MOM", "NPC_GIFT_TOWN_MAP_MOM"],
+    "events": ["EVENT_GOODBYE_FROM_MOM"],
+    "exits": [
+      "REGION_VANIVILLE_TOWN_MAIN"
+    ]
+  },
+  "REGION_VANIVILLE_TOWN_RIVAL_HOUSE_F1": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_VANIVILLE_TOWN_MAIN",
+      "REGION_VANIVILLE_TOWN_RIVAL_HOUSE_F2"
+    ]
+  },
+  "REGION_VANIVILLE_TOWN_RIVAL_HOUSE_F2": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_VANIVILLE_TOWN_RIVAL_HOUSE_F1"
+    ]
+  },
+  "REGION_AQUACORDE_TOWN_UPPER": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": ["NPC_GIFT_PROFS_LETTER"],
+    "events": ["EVENT_OBTAIN_STARTER"],
+    "exits": [
+      "REGION_ROUTE_1",
+      "REGION_AQUACORDE_TOWN_MAIN"
+    ]
+  },
+  "REGION_AQUACORDE_TOWN_MAIN": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": ["NPC_GIFT_POTION_CLERK"],
+    "events": [],
+    "exits": [
+      "REGION_AQUACORDE_TOWN_UPPER",
+      "REGION_ROUTE_2"
+    ]
+  }
+}

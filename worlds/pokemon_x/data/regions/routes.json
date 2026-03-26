@@ -1,0 +1,23 @@
+{
+  "REGION_ROUTE_1": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_VANIVILLE_TOWN_MAIN",
+      "REGION_AQUACORDE_TOWN_UPPER"
+    ]
+  },
+  "REGION_ROUTE_2": {
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_AQUACORDE_TOWN_MAIN"
+    ]
+  }
+}
