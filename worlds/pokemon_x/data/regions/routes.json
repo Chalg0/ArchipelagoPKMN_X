@@ -1,8 +1,5 @@
 {
   "REGION_ROUTE_1": {
-    "has_grass": false,
-    "has_water": false,
-    "has_fishing": false,
     "locations": [],
     "events": [],
     "exits": [
@@ -11,13 +8,60 @@
     ]
   },
   "REGION_ROUTE_2": {
-    "has_grass": false,
-    "has_water": false,
-    "has_fishing": false,
+    "locations": ["NPC_GIFT_CATCH_TUTORIAL"],
+    "events": [],
+    "exits": [
+      "REGION_AQUACORDE_TOWN_MAIN",
+      "REGION_SANTALUNE_FOREST"
+    ]
+  },
+  "REGION_ROUTE_3_MAIN": {
+    "locations": [
+      "NPC_GIFT_ADVENTURE_RULES",
+      "PICKUP_ROUTE_3_SUPER_POTION"
+      ],
+    "events": [],
+    "exits": [
+      "REGION_SANTALUNE_FOREST",
+      "REGION_ROUTE_3_CUT",
+      "REGION_ROUTE_3_SURF",
+      "REGION_SANTALUNE_CITY_MAIN"
+    ]
+  },
+  "REGION_ROUTE_3_CUT": {
+    "locations": ["PICKUP_ROUTE_3_REVIVE"],
+    "events": [],
+    "exits": [
+      "REGION_ROUTE_3_MAIN"
+    ]
+  },
+  "REGION_ROUTE_3_SURF": {
+    "locations": ["PICKUP_ROUTE_3_DAWN_STONE"],
+    "events": [],
+    "exits": [
+      "REGION_ROUTE_3_MAIN"
+    ]
+  },
+  "REGION_ROUTE_4": {
     "locations": [],
     "events": [],
     "exits": [
-      "REGION_AQUACORDE_TOWN_MAIN"
+      "REGION_SANTALUNE_CITY_POST_GYM"
+    ]
+  },
+  "REGION_ROUTE_22_MAIN": {
+    "locations": ["PICKUP_ROUTE_22_SUPER_POTION"],
+    "events": [],
+    "exits": [
+      "REGION_SANTALUNE_CITY_MAIN",
+      "REGION_ROUTE_22_CUT"
+    ]
+  },
+  "REGION_ROUTE_22_CUT": {
+    "locations": ["PICKUP_ROUTE_22_ELIXIR"],
+    "events": [],
+    "exits": [
+      "REGION_ROUTE_22_MAIN"
     ]
   }
 }

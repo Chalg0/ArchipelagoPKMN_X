@@ -26,5 +26,166 @@
     "ap_id": 4,
     "flag": "",
     "tags": ["NpcGift"]
+  },
+  "NPC_GIFT_CATCH_TUTORIAL": {
+    "label": "Route 2 - Pokeball from Rival",
+    "default_item": "Poké Ball",
+    "ap_id": 5,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "PICKUP_SANTALUNE_ANTIDODE": {
+    "label": "Santalune Forest - Southeast Most Corner",
+    "default_item": "Antidote",
+    "ap_id": 6,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "PICKUP_SANTALUNE_POTION_1": {
+    "label": "Santalune Forest - Potion next to entrance",
+    "default_item": "Potion",
+    "ap_id": 7,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "PICKUP_SANTALUNE_POTION_2": {
+    "label": "Santalune Forest - Potion Northwest of entrance",
+    "default_item": "Potion",
+    "ap_id": 8,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "PICKUP_SANTALUNE_POTION_3": {
+    "label": "Santalune Forest - Potion West of Lass Lise",
+    "default_item": "Potion",
+    "ap_id": 9,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "PICKUP_SANTALUNE_PARALYZE_HEAL": {
+    "label": "Santalune Forest - Paralyze Heal from Shauna",
+    "default_item": "Paralyze Heal",
+    "ap_id": 10,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "NPC_GIFT_SANTALUNE_POKEBALL_1": {
+    "label": "Santalune Forest - Pokeball from Rival",
+    "default_item": "Poké Ball",
+    "ap_id": 11,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "PICKUP_SANTALUNE_POKEBALL_2": {
+    "label": "Santalune Forest - Pokeball east of Lass Lise",
+    "default_item": "Poké Ball",
+    "ap_id": 12,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "PICKUP_SANTALUNE_PINSIRITE": {
+    "label": "Santalune Forest - Pinsirite",
+    "default_item": "Pinsirite",
+    "ap_id": 13,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "NPC_GIFT_ADVENTURE_RULES": {
+    "label": "Route 3 - Adventure Rules from Rival",
+    "default_item": "Adventure Rules",
+    "ap_id": 14,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "PICKUP_ROUTE_3_SUPER_POTION": {
+    "label": "Route 3 - Super Potion",
+    "default_item": "Super Potion",
+    "ap_id": 15,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "PICKUP_ROUTE_3_REVIVE": {
+    "label": "Route 3 - Revive",
+    "default_item": "Revive",
+    "ap_id": 16,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "PICKUP_ROUTE_3_DAWN_STONE": {
+    "label": "Route 3 - Dawn Stone",
+    "default_item": "Dawn Stone",
+    "ap_id": 17,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "NPC_GIFT_SANTALUNE_GREAT_BALL": {
+    "label": "Santalune City - Great Ball Gift",
+    "default_item": "Great Ball",
+    "ap_id": 18,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "HIDDEN_SANTALUNE_GREAT_BALL": {
+    "label": "Santalune City - Hidden Great Ball",
+    "default_item": "Great Ball",
+    "ap_id": 19,
+    "flag": "",
+    "tags": ["Pickup", "Hidden"]
+  },
+  "HIDDEN_SANTALUNE_ANTIDOTE": {
+    "label": "Santalune City - Hidden Antidote",
+    "default_item": "Antidote",
+    "ap_id": 20,
+    "flag": "",
+    "tags": ["Pickup", "Hidden"]
+  },
+  "NPC_GIFT_SANTALUNE_X_ITEMS": {
+    "label": "Santalune City - X-Items Gift",
+    "default_item": "X Attack",
+    "ap_id": 21,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "NPC_GIFT_ROLLER_SKATES": {
+    "label": "Santalune City - Roller Skates from Rinka",
+    "default_item": "Roller Skates",
+    "ap_id": 22,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "NPC_GIFT_EXP_SHARE": {
+    "label": "Santalune City - Exp. Share from Alexa",
+    "default_item": "Exp. Share",
+    "ap_id": 23,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "NPC_GIFT_BUG_BADGE": {
+    "label": "Santalune City Gym - Badge Reward",
+    "default_item": "Bug Badge",
+    "ap_id": 24,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "NPC_GIFT_TM83_INFESTATION": {
+    "label": "Santalune City Gym - TM Reward",
+    "default_item": "TM83",
+    "ap_id": 25,
+    "flag": "",
+    "tags": ["NpcGift"]
+  },
+  "PICKUP_ROUTE_22_SUPER_POTION": {
+    "label": "Route 22 - Super Potion",
+    "default_item": "Super Potion",
+    "ap_id": 26,
+    "flag": "",
+    "tags": ["Pickup"]
+  },
+  "PICKUP_ROUTE_22_ELIXIR": {
+    "label": "Route 22 - Elixir",
+    "default_item": "Elixir",
+    "ap_id": 27,
+    "flag": "",
+    "tags": ["Pickup"]
   }
 }

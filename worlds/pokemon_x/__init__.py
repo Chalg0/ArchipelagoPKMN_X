@@ -4,10 +4,14 @@ from .rules import set_rules
 from .locations import create_locations, PokemonXLocation, create_location_label_to_id_map
 from .regions import create_regions
 from .items import PokemonXItem, find_item_data, create_item_label_to_id_map
-
+from .client import PokemonXClient
+from .options import PokemonXOptions
 
 class PokemonXWorld(World):
     game = "Pokemon X"
+
+    options_dataclass = options.PokemonXOptions
+    options: options.PokemonXOptions
 
     item_name_to_id = create_item_label_to_id_map()
     location_name_to_id = create_location_label_to_id_map()

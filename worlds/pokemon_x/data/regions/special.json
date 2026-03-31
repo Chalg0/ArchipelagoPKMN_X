@@ -1,0 +1,34 @@
+{
+  "REGION_SANTALUNE_FOREST": {
+    "locations": [
+      "PICKUP_SANTALUNE_ANTIDODE",
+      "PICKUP_SANTALUNE_POTION_1",
+      "PICKUP_SANTALUNE_POTION_2",
+      "PICKUP_SANTALUNE_PARALYZE_HEAL",
+      "NPC_GIFT_SANTALUNE_POKEBALL_1",
+      "PICKUP_SANTALUNE_POKEBALL_2"
+    ],
+    "events": [],
+    "exits": [
+      "REGION_ROUTE_2",
+      "REGION_ROUTE_3_MAIN"
+    ]
+  },
+  "REGION_SANTALUNE_GYM": {
+    "locations": [
+      "NPC_GIFT_BUG_BADGE",
+      "NPC_GIFT_TM83_INFESTATION"
+    ],
+    "events": ["EVENT_DEFEAT_VIOLA"],
+    "exits": [
+      "REGION_SANTALUNE_CITY_MAIN"
+    ]
+  },
+  "REGION_VICTORY_ROAD_ENTRANCE": {
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_ROUTE_22_MAIN"
+    ]
+  }
+}

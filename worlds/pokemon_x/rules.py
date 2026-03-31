@@ -25,3 +25,8 @@ def set_rules(world: "Pokemon X") -> None:
         get_entrance("REGION_AQUACORDE_TOWN_MAIN -> REGION_ROUTE_2"),
         Has("EVENT_GOODBYE_FROM_MOM"),
     ),
+
+    world.set_rule(
+        get_entrance("REGION_SANTALUNE_CITY_MAIN -> REGION_SANTALUNE_CITY_POST_GYM"),
+        Has("EVENT_DEFEAT_VIOLA")
+    )

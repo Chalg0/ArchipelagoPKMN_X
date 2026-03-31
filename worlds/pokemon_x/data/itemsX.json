@@ -3770,7 +3770,7 @@
   "ITEM_ROLLER_SKATES": {
     "label": "Roller Skates",
     "ap_id": 643,
-    "classification": "FILLER",
+    "classification": "USEFUL",
     "tags": []
   },
   "ITEM_PIXIE_PLATE": {
@@ -4131,7 +4131,7 @@
     "label": "Adventure Rules",
     "ap_id": 703,
     "classification": "FILLER",
-    "tags": []
+    "tags": ["Unique"]
   },
   "ITEM_STRANGE_SOUVENIR": {
     "label": "Strange Souvenir",

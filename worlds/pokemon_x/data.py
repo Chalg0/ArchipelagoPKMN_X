@@ -26,19 +26,13 @@ class EventData(NamedTuple):
 
 class RegionData:
     name: str
-    has_grass: bool
-    has_water: bool
-    has_fishing: bool
     exits: List[str]
     warps: List[str]
     locations: List[str]
     events: List[EventData]
 
-    def __init__(self, name: str, has_grass: bool, has_water: bool, has_fishing: bool):
+    def __init__(self, name: str):
         self.name = name
-        self.has_grass = has_grass
-        self.has_water = has_water
-        self.has_fishing = has_fishing
         self.exits = []
         self.warps = []
         self.locations = []
@@ -83,12 +77,7 @@ def _init_region() -> None:
     claimed_locations: Set[str] = set()
     data.regions = {}
     for region_name, region_json in regions_json.items():
-        new_region = RegionData(
-            region_name,
-            region_json["has_grass"],
-            region_json["has_water"],
-            region_json["has_fishing"]
-        )
+        new_region = RegionData(region_name)
 
         for location_name in region_json["locations"]:
             if location_name in claimed_locations:
