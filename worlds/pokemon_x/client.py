@@ -2,7 +2,7 @@ from typing import Set, Dict, Optional, TYPE_CHECKING
 import worlds._bizhawk as bizhawk
 from worlds._bizhawk.client import BizHawkClient
 from NetUtils import ClientStatus, NetworkItem
-from .items import POCKET_MAP
+from .items import POCKET_MAP, get_item_name_from_id
 
 if TYPE_CHECKING:
     from worlds._bizhawk.context import BizHawkClientContext
@@ -10,7 +10,10 @@ if TYPE_CHECKING:
 EXPECTED_ROM_NAME = "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko) AP v0.1"
 MEM_DOMAIN = "FCRAM"
 
-BADGE_ADDRESS = 0x0         #TODO find!!!
+MONEY_ADDRESS = 0x074D869C
+BADGE_ADDRESS = 0x074D86A0
+BADGE_ID_FIRST = 1001
+BADGE_ID_LAST = 1008
 # ── How many items the game has processed, stored in save RAM ──
 # You need to find/allocate a free u16 in your save block for this counter.
 # This address is a PLACEHOLDER — replace with a real free address in your save.
@@ -108,16 +111,17 @@ async def give_item(ctx: "BizHawkClientContext", item_id: int, quantity: int = 1
     Write an item into the first free (or matching) bag slot in its pocket.
     Returns True on success, False if the pocket is full or the pocket is unknown.
     """
+    item_name = get_item_name_from_id(item_id)
     pocket = get_pocket(item_id)
-    print(f"[PokeX] give_item called: 0x{item_id:04X} x{quantity}")  # add this
+    print(f"[PokeX] give_item called: {item_name} x{quantity}")  # add this
     if pocket is None:
         print(f"[PokeX] Unknown pocket for item ID 0x{item_id:04X}")
         return False
+    # Badges are handel in handle_badges so they are not written here
+    if pocket == "BADGE":
+        return True
 
-    if pocket is "BADGE":
-        return await give_badge(ctx, item_id)
-
-    await bizhawk.display_message(ctx.bizhawk_ctx, f"Giving item 0x{item_id:04X} x{quantity}")
+    await bizhawk.display_message(ctx.bizhawk_ctx, f"Giving item {item_name} x{quantity}")
 
     base_addr, max_slots, max_items = pocket
     pocket_size = max_slots * BAG_SLOT_SIZE
@@ -144,7 +148,7 @@ async def give_item(ctx: "BizHawkClientContext", item_id: int, quantity: int = 1
             except Exception as e:
                 print(f"[PokeX] Failed to write item stack: {e}")
                 return False
-            print(f"[PokeX] Stacked item 0x{item_id:04X} → qty {new_qty} (slot {slot})")
+            print(f"[PokeX] Stacked item {item_name} → qty {new_qty} (slot {slot})")
             return True
 
         if slot_id == 0x0000:
@@ -155,10 +159,10 @@ async def give_item(ctx: "BizHawkClientContext", item_id: int, quantity: int = 1
             except Exception as e:
                 print(f"[PokeX] Failed to write new item: {e}")
                 return False
-            print(f"[PokeX] Gave item 0x{item_id:04X} x{quantity} (slot {slot})")
+            print(f"[PokeX] Gave item {item_name} x{quantity} (slot {slot})")
             return True
 
-    print(f"[PokeX] COuldnt place item 0x{item_id:04X}!")
+    print(f"[PokeX] Couldnt place item {item_name}!")
     return False
 
 def get_pocket(item_id: int):
@@ -168,23 +172,19 @@ def get_pocket(item_id: int):
             return pocket
     return None
 
-async def give_badge(ctx: "BizHawkClientContext", item_id) -> bool:
-    try:
-        data = await bizhawk.read(ctx.bizhawk_ctx, [(BADGE_ADDRESS, 1, MEM_DOMAIN)])
-    except Exception as e:
-        print(f"[PokeX] Failed to read badges: {e}")
-        return False
-    current_badges = int.from_bytes(data[0], "little")
-    badge_id = item_id - 1000
-    #Bit shift the badge into the right postion and then or it with current badges to write back
-    value_to_or = 1 << (badge_id - 1)
-    new_badges = current_badges | value_to_or
+async def handle_badges(ctx: "BizHawkClientContext") -> bool:
+    new_badges = 0
+    # For every badge the player has gotten 1 is shifted into the position and logically ored with the result
+    # Using or to prevent badges being in items recieved multiple times messing things up
+    for item_id in ctx.items_received:
+        if BADGE_ID_FIRST <= item_id.item <= BADGE_ID_LAST:
+            shifted = 1 << item_id.item - BADGE_ID_FIRST
+            new_badges = new_badges | shifted
     try:
         await bizhawk.write(ctx.bizhawk_ctx, [(BADGE_ADDRESS, new_badges, MEM_DOMAIN)])
     except Exception as e:
         print(f"[PokeX] Failed to write new item: {e}")
         return False
-    print(f"[PokeX] Gave badge {badge_id:04X}")
     return True
 
 # ------------------------------------------------------------------ #

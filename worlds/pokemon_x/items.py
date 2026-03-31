@@ -16,40 +16,41 @@ BADGE = "BADGE"
 
 # Maps the items ids to where in the bag they belong unobtainable key items are included in this map
 POCKET_MAP = {
-    range(0,    16): BAG_ITEMS,         # Pokeballs
-    range(17,   54): BAG_MEDICINE,      # Medicine
-    range(55,   112): BAG_ITEMS,        # Items
-    range(116,  119): BAG_ITEMS,        # Genesect Drives 3 unknown before 14 after
-    range(134,  134): BAG_MEDICINE,     # Sweet Heart for some reason
-    range(135,  148): BAG_ITEMS,        # Items (Gen 4 Orbs and Mail)
-    range(149,  212): BAG_BERRIES,      # Berries
-    range(213,  327): BAG_ITEMS,        # Items (Held Items mainly
-    range(328,  424): BAG_TM,           # TMs 1-92 and HMs
-    range(428,  484): BAG_KEY,          # Some Key Items not all of them should be obtainable
-    range(485,  500): BAG_ITEMS,        # Items
-    range(501,  503): BAG_KEY,
-    range(504,  504): BAG_MEDICINE,     # Rage Candy Bar
-    range(505,  531): BAG_ITEMS,        # Items Data Cards
-    range(532,  536): BAG_KEY,          # Key Items
-    range(537,  573): BAG_ITEMS,        # Items
-    range(618,  620): BAG_TM,           # TMs 93-95
-    # 621 - 640   Gen 5 items and assalt vest
-    range(641,  643): BAG_KEY,          # Gen 6 early Key Items
-    range(644,  650): BAG_ITEMS,        #
-    range(651,  651): BAG_KEY,          # Poke Flute
-    range(652,  685): BAG_ITEMS,        #
-    range(686,  688): BAG_BERRIES,      #
-    range(689,  689): BAG_KEY,          # Sprinkle Toad
-    range(690,  694): BAG_TM,           # TMs 96-100
-    range(695,  698): BAG_KEY,
-    range(699,  699): BAG_ITEMS,        # Discount Code
-    range(700,  703): BAG_KEY,
-    range(704,  704): BAG_ITEMS,        # Strange Souvenier
-    range(705,  707): BAG_KEY,
-    range(708,  709): BAG_MEDICINE,
-    range(710,  711): BAG_ITEMS,
-    range(712,  714): BAG_KEY,
-    range(715,  715): BAG_ITEMS,
+    range(0,    17): BAG_ITEMS,         # Pokeballs
+    range(17,   55): BAG_MEDICINE,      # Medicine
+    range(55,   113): BAG_ITEMS,        # Items
+    range(116,  120): BAG_ITEMS,        # Genesect Drives 3 unknown before 14 after
+    range(134,  135): BAG_MEDICINE,     # Sweet Heart for some reason
+    range(135,  149): BAG_ITEMS,        # Items (Gen 4 Orbs and Mail)
+    range(149,  213): BAG_BERRIES,      # Berries
+    range(213,  328): BAG_ITEMS,        # Items (Held Items mainly
+    range(328,  425): BAG_TM,           # TMs 1-92 and HMs
+    range(428,  485): BAG_KEY,          # Some Key Items not all of them should be obtainable
+    range(485,  501): BAG_ITEMS,        # Items
+    range(501,  502): BAG_KEY,
+    range(504,  505): BAG_MEDICINE,     # Rage Candy Bar
+    range(505,  532): BAG_ITEMS,        # Items Data Cards
+    range(532,  537): BAG_KEY,          # Key Items
+    range(537,  574): BAG_ITEMS,        # Items
+    range(618,  621): BAG_TM,           # TMs 93-95
+    range(621,  638): BAG_KEY,
+    range(638,  641): BAG_ITEMS,
+    range(641,  644): BAG_KEY,          # Gen 6 early Key Items
+    range(644,  651): BAG_ITEMS,        #
+    range(651,  652): BAG_KEY,          # Poke Flute
+    range(652,  686): BAG_ITEMS,        #
+    range(686,  689): BAG_BERRIES,      #
+    range(689,  690): BAG_KEY,          # Sprinkle Toad
+    range(690,  695): BAG_TM,           # TMs 96-100
+    range(695,  699): BAG_KEY,
+    range(699,  700): BAG_ITEMS,        # Discount Code
+    range(700,  704): BAG_KEY,
+    range(704,  705): BAG_ITEMS,        # Strange Souvenier
+    range(705,  708): BAG_KEY,
+    range(708,  710): BAG_MEDICINE,
+    range(710,  712): BAG_ITEMS,
+    range(712,  715): BAG_KEY,
+    range(715,  716): BAG_ITEMS,
 
     range(1001, 1008): BADGE,
 }
@@ -67,6 +68,12 @@ def find_item_data(item_name) -> ItemData | None:
     for item_data in data.items.values():
         if item_data.label == item_name:
             return item_data
+    return None
+
+def get_item_name_from_id(item_id) -> str | None:
+    for item_data in data.items.values():
+        if item_data.ap_id == item_id:
+            return item_data.label
     return None
 
 
