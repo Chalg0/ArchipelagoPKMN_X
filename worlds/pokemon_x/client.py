@@ -8,24 +8,15 @@ if TYPE_CHECKING:
     from worlds._bizhawk.context import BizHawkClientContext
 
 EXPECTED_ROM_NAME = "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko) AP v0.1"
+MEM_DOMAIN = "FCRAM"
 
+BADGE_ADDRESS = 0x0         #TODO find!!!
 # ── How many items the game has processed, stored in save RAM ──
 # You need to find/allocate a free u16 in your save block for this counter.
 # This address is a PLACEHOLDER — replace with a real free address in your save.
 RECEIVED_ITEMS_COUNT_ADDR = 0x08C9FFFF  # <-- REPLACE with real address
 
-
-def get_pocket(item_id: int):
-    """Return (base_address, max_slots) for the given item ID, or None."""
-    for id_range, pocket in POCKET_MAP.items():
-        if item_id in id_range:
-            return pocket
-    return None
-
-
 BAG_SLOT_SIZE  = 4          # 2 Byte Item_Id + 2 Byte Quantity
-MEM_DOMAIN = "FCRAM"
-BADGE_ADDRESS = 0x0
 
 class PokemonXClient(BizHawkClient):
     game         = "Pokemon X"
@@ -38,49 +29,29 @@ class PokemonXClient(BizHawkClient):
         super().__init__()
         self.local_checked_locations = set()
 
-    # ------------------------------------------------------------------ #
-    #  ROM validation                                                      #
-    # ------------------------------------------------------------------ #
     async def validate_rom(self, ctx: "BizHawkClientContext") -> bool:
-        # TODO: read a ROM header byte / build tag to confirm this is XY.
-        # Return False to refuse connection if the wrong ROM is loaded.
+        # TODO Return False to refuse connection if the wrong ROM/AP patch is loaded
 
         ctx.game = self.game  # sets "Pokemon X"
         ctx.items_handling = 0b111  # receive items from anywhere
         ctx.watcher_timeout = 0.125
         return True
 
-    # ------------------------------------------------------------------ #
-    #  Main loop                                                           #
-    # ------------------------------------------------------------------ #
     async def game_watcher(self, ctx: "BizHawkClientContext") -> None:
         if ctx.server is None or ctx.server.socket.closed or ctx.slot_data is None:
             return
 
-
         await self.handle_received_items(ctx)
         await self.handle_checked_locations(ctx)
 
-        # TODO: set game_clear = True when the player beats the champion / your goal
+        # TODO: set game_clear
         game_clear = False
         if not ctx.finished_game and game_clear:
             ctx.finished_game = True
             await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
 
-    # ------------------------------------------------------------------ #
-    #  Item receiving                                                      #
-    # ------------------------------------------------------------------ #
     async def handle_received_items(self, ctx: "BizHawkClientContext") -> None:
-        print(f"[PokeX] items_received count: {len(ctx.items_received)}")
-        """
-        Reads how many items the game has already processed from save RAM,
-        then gives every item in ctx.items_received that hasn't been given yet.
-
-        ctx.items_received is the authoritative ordered list from the server.
-        We persist progress via a u16 counter written into the game's save RAM
-        so that items aren't duplicated across sessions.
-        """
-        # --- read the in-game "how many AP items have I received?" counter ---
+        # read how many items the client has already recieved
         try:
             raw = await bizhawk.read(
                 ctx.bizhawk_ctx,
@@ -92,31 +63,25 @@ class PokemonXClient(BizHawkClient):
 
         game_received_count = int.from_bytes(raw[0], "little")
 
-        # Give every item the server knows about that the game hasn't processed yet
-        for index in range(game_received_count, len(ctx.items_received)):
-            network_item: NetworkItem = ctx.items_received[index]
-            item_id = network_item.item
-
-            success = await give_item(ctx, item_id, quantity=1)
+        # adding the next unrecieved item each method call
+        if game_received_count < len(ctx.items_received):
+            network_item: NetworkItem = ctx.items_received[game_received_count]
+            success = await give_item(ctx, network_item.item, quantity=1)
             if not success:
-                # Bag was full or unknown pocket — stop and retry next tick
-                print(f"[PokeX] Stopping item grant at index {index} (item 0x{item_id:04X})")
-                break
+                print(f"[PokeX] Could not give item 0x{network_item.item:04X} at index {game_received_count}")
+                return
 
-            # Advance the in-game counter so this item isn't given again
             game_received_count += 1
             counter_bytes = game_received_count.to_bytes(2, "little")
             try:
                 await bizhawk.write(
-                    ctx.bizhawk_ctx,
-                    [(RECEIVED_ITEMS_COUNT_ADDR, counter_bytes, MEM_DOMAIN)]
+                    ctx.bizhawk_ctx,[(RECEIVED_ITEMS_COUNT_ADDR, counter_bytes, MEM_DOMAIN)]
                 )
             except Exception as e:
                 print(f"[PokeX] Could not write received-items counter: {e}")
-                break
 
     # ------------------------------------------------------------------ #
-    #  Location checking                                                   #
+    #  Location checking                                                 #
     # ------------------------------------------------------------------ #
     async def handle_checked_locations(self, ctx: "BizHawkClientContext") -> None:
         """
@@ -150,7 +115,7 @@ async def give_item(ctx: "BizHawkClientContext", item_id: int, quantity: int = 1
         return False
 
     if pocket is "BADGE":
-        return give_badge(ctx, item_id)
+        return await give_badge(ctx, item_id)
 
     await bizhawk.display_message(ctx.bizhawk_ctx, f"Giving item 0x{item_id:04X} x{quantity}")
 
@@ -196,6 +161,13 @@ async def give_item(ctx: "BizHawkClientContext", item_id: int, quantity: int = 1
     print(f"[PokeX] COuldnt place item 0x{item_id:04X}!")
     return False
 
+def get_pocket(item_id: int):
+    """Return (base_address, max_slots, max_items) for the given item ID, or None."""
+    for id_range, pocket in POCKET_MAP.items():
+        if item_id in id_range:
+            return pocket
+    return None
+
 async def give_badge(ctx: "BizHawkClientContext", item_id) -> bool:
     try:
         data = await bizhawk.read(ctx.bizhawk_ctx, [(BADGE_ADDRESS, 1, MEM_DOMAIN)])
@@ -204,6 +176,7 @@ async def give_badge(ctx: "BizHawkClientContext", item_id) -> bool:
         return False
     current_badges = int.from_bytes(data[0], "little")
     badge_id = item_id - 1000
+    #Bit shift the badge into the right postion and then or it with current badges to write back
     value_to_or = 1 << (badge_id - 1)
     new_badges = current_badges | value_to_or
     try:
@@ -224,12 +197,6 @@ def get_location_ids() -> Set[int]:
     """
     return set()
 
-
 def launch_client():
     from worlds._bizhawk.context import launch as bizhawk_launch
     bizhawk_launch()
-
-
-
-
-
