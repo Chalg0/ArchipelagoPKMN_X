@@ -3,4200 +3,4926 @@
     "label": "Bug Badge",
     "ap_id": 1001,
     "classification": "PROGRESSION",
-    "tags": ["Badge", "Unique"]
+    "tags": [
+      "Badge",
+      "Unique"
+    ],
+    "bag": "BADGE"
   },
   "ITEM_BADGE_2": {
     "label": "Cliff Badge",
     "ap_id": 1002,
     "classification": "PROGRESSION",
-    "tags": ["Badge", "Unique"]
+    "tags": [
+      "Badge",
+      "Unique"
+    ],
+    "bag": "BADGE"
   },
   "ITEM_BADGE_3": {
     "label": "Rumble Badge",
     "ap_id": 1003,
     "classification": "PROGRESSION",
-    "tags": ["Badge", "Unique"]
+    "tags": [
+      "Badge",
+      "Unique"
+    ],
+    "bag": "BADGE"
   },
   "ITEM_BADGE_4": {
     "label": "Grass Badge",
     "ap_id": 1004,
     "classification": "PROGRESSION",
-    "tags": ["Badge", "Unique"]
+    "tags": [
+      "Badge",
+      "Unique"
+    ],
+    "bag": "BADGE"
   },
   "ITEM_BADGE_5": {
     "label": "Voltage Badge",
     "ap_id": 1005,
     "classification": "PROGRESSION",
-    "tags": ["Badge", "Unique"]
+    "tags": [
+      "Badge",
+      "Unique"
+    ],
+    "bag": "BADGE"
   },
   "ITEM_BADGE_6": {
     "label": "Fairy Badge",
     "ap_id": 1006,
     "classification": "PROGRESSION",
-    "tags": ["Badge", "Unique"]
+    "tags": [
+      "Badge",
+      "Unique"
+    ],
+    "bag": "BADGE"
   },
   "ITEM_BADGE_7": {
     "label": "Psycic Badge",
     "ap_id": 1007,
     "classification": "PROGRESSION",
-    "tags": ["Badge", "Unique"]
+    "tags": [
+      "Badge",
+      "Unique"
+    ],
+    "bag": "BADGE"
   },
   "ITEM_BADGE_8": {
     "label": "Iceberg Badge",
     "ap_id": 1008,
     "classification": "PROGRESSION",
-    "tags": ["Badge", "Unique"]
+    "tags": [
+      "Badge",
+      "Unique"
+    ],
+    "bag": "BADGE"
   },
   "ITEM_MASTER_BALL": {
     "label": "Master Ball",
     "ap_id": 1,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ULTRA_BALL": {
     "label": "Ultra Ball",
     "ap_id": 2,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GREAT_BALL": {
     "label": "Great Ball",
     "ap_id": 3,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POKE_BALL": {
     "label": "Poké Ball",
     "ap_id": 4,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SAFARI_BALL": {
     "label": "Safari Ball",
     "ap_id": 5,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_NET_BALL": {
     "label": "Net Ball",
     "ap_id": 6,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DIVE_BALL": {
     "label": "Dive Ball",
     "ap_id": 7,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_NEST_BALL": {
     "label": "Nest Ball",
     "ap_id": 8,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_REPEAT_BALL": {
     "label": "Repeat Ball",
     "ap_id": 9,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_TIMER_BALL": {
     "label": "Timer Ball",
     "ap_id": 10,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LUXURY_BALL": {
     "label": "Luxury Ball",
     "ap_id": 11,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PREMIER_BALL": {
     "label": "Premier Ball",
     "ap_id": 12,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DUSK_BALL": {
     "label": "Dusk Ball",
     "ap_id": 13,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HEAL_BALL": {
     "label": "Heal Ball",
     "ap_id": 14,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_QUICK_BALL": {
     "label": "Quick Ball",
     "ap_id": 15,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CHERISH_BALL": {
     "label": "Cherish Ball",
     "ap_id": 16,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POTION": {
     "label": "Potion",
     "ap_id": 17,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_ANTIDOTE": {
     "label": "Antidote",
     "ap_id": 18,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_BURN_HEAL": {
     "label": "Burn Heal",
     "ap_id": 19,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_ICE_HEAL": {
     "label": "Ice Heal",
     "ap_id": 20,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_AWAKENING": {
     "label": "Awakening",
     "ap_id": 21,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_PARALYZE_HEAL": {
     "label": "Paralyze Heal",
     "ap_id": 22,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_FULL_RESTORE": {
     "label": "Full Restore",
     "ap_id": 23,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_MAX_POTION": {
     "label": "Max Potion",
     "ap_id": 24,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_HYPER_POTION": {
     "label": "Hyper Potion",
     "ap_id": 25,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_SUPER_POTION": {
     "label": "Super Potion",
     "ap_id": 26,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_FULL_HEAL": {
     "label": "Full Heal",
     "ap_id": 27,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_REVIVE": {
     "label": "Revive",
     "ap_id": 28,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_MAX_REVIVE": {
     "label": "Max Revive",
     "ap_id": 29,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_FRESH_WATER": {
     "label": "Fresh Water",
     "ap_id": 30,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_SODA_POP": {
     "label": "Soda Pop",
     "ap_id": 31,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_LEMONADE": {
     "label": "Lemonade",
     "ap_id": 32,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_MOOMOO_MILK": {
     "label": "Moomoo Milk",
     "ap_id": 33,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_ENERGY_POWDER": {
     "label": "Energy Powder",
     "ap_id": 34,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_ENERGY_ROOT": {
     "label": "Energy Root",
     "ap_id": 35,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_HEAL_POWDER": {
     "label": "Heal Powder",
     "ap_id": 36,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_REVIVAL_HERB": {
     "label": "Revival Herb",
     "ap_id": 37,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_ETHER": {
     "label": "Ether",
     "ap_id": 38,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_MAX_ETHER": {
     "label": "Max Ether",
     "ap_id": 39,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_ELIXIR": {
     "label": "Elixir",
     "ap_id": 40,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_MAX_ELIXIR": {
     "label": "Max Elixir",
     "ap_id": 41,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_LAVA_COOKIE": {
     "label": "Lava Cookie",
     "ap_id": 42,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_BERRY_JUICE": {
     "label": "Berry Juice",
     "ap_id": 43,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_SACRED_ASH": {
     "label": "Sacred Ash",
     "ap_id": 44,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_HP_UP": {
     "label": "HP Up",
     "ap_id": 45,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_PROTEIN": {
     "label": "Protein",
     "ap_id": 46,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_IRON": {
     "label": "Iron",
     "ap_id": 47,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_CARBOS": {
     "label": "Carbos",
     "ap_id": 48,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_CALCIUM": {
     "label": "Calcium",
     "ap_id": 49,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_RARE_CANDY": {
     "label": "Rare Candy",
     "ap_id": 50,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_PP_UP": {
     "label": "PP Up",
     "ap_id": 51,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_ZINC": {
     "label": "Zinc",
     "ap_id": 52,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_PP_MAX": {
     "label": "PP Max",
     "ap_id": 53,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_OLD_GATEAU": {
     "label": "Old Gateau",
     "ap_id": 54,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_GUARD_SPEC_": {
     "label": "Guard Spec.",
     "ap_id": 55,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DIRE_HIT": {
     "label": "Dire Hit",
     "ap_id": 56,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_X_ATTACK": {
     "label": "X Attack",
     "ap_id": 57,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_X_DEFENSE": {
     "label": "X Defense",
     "ap_id": 58,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_X_SPEED": {
     "label": "X Speed",
     "ap_id": 59,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_X_ACCURACY": {
     "label": "X Accuracy",
     "ap_id": 60,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_X_SP_ATK": {
     "label": "X Sp. Atk",
     "ap_id": 61,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_X_SP_DEF": {
     "label": "X Sp. Def",
     "ap_id": 62,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POKE_DOLL": {
     "label": "Poké Doll",
     "ap_id": 63,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FLUFFY_TAIL": {
     "label": "Fluffy Tail",
     "ap_id": 64,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLUE_FLUTE": {
     "label": "Blue Flute",
     "ap_id": 65,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_YELLOW_FLUTE": {
     "label": "Yellow Flute",
     "ap_id": 66,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RED_FLUTE": {
     "label": "Red Flute",
     "ap_id": 67,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLACK_FLUTE": {
     "label": "Black Flute",
     "ap_id": 68,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WHITE_FLUTE": {
     "label": "White Flute",
     "ap_id": 69,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SHOAL_SALT": {
     "label": "Shoal Salt",
     "ap_id": 70,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SHOAL_SHELL": {
     "label": "Shoal Shell",
     "ap_id": 71,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RED_SHARD": {
     "label": "Red Shard",
     "ap_id": 72,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLUE_SHARD": {
     "label": "Blue Shard",
     "ap_id": 73,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_YELLOW_SHARD": {
     "label": "Yellow Shard",
     "ap_id": 74,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GREEN_SHARD": {
     "label": "Green Shard",
     "ap_id": 75,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SUPER_REPEL": {
     "label": "Super Repel",
     "ap_id": 76,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MAX_REPEL": {
     "label": "Max Repel",
     "ap_id": 77,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ESCAPE_ROPE": {
     "label": "Escape Rope",
     "ap_id": 78,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_REPEL": {
     "label": "Repel",
     "ap_id": 79,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SUN_STONE": {
     "label": "Sun Stone",
     "ap_id": 80,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MOON_STONE": {
     "label": "Moon Stone",
     "ap_id": 81,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FIRE_STONE": {
     "label": "Fire Stone",
     "ap_id": 82,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_THUNDER_STONE": {
     "label": "Thunder Stone",
     "ap_id": 83,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WATER_STONE": {
     "label": "Water Stone",
     "ap_id": 84,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LEAF_STONE": {
     "label": "Leaf Stone",
     "ap_id": 85,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_TINY_MUSHROOM": {
     "label": "Tiny Mushroom",
     "ap_id": 86,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BIG_MUSHROOM": {
     "label": "Big Mushroom",
     "ap_id": 87,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PEARL": {
     "label": "Pearl",
     "ap_id": 88,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BIG_PEARL": {
     "label": "Big Pearl",
     "ap_id": 89,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_STARDUST": {
     "label": "Stardust",
     "ap_id": 90,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_STAR_PIECE": {
     "label": "Star Piece",
     "ap_id": 91,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_NUGGET": {
     "label": "Nugget",
     "ap_id": 92,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HEART_SCALE": {
     "label": "Heart Scale",
     "ap_id": 93,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HONEY": {
     "label": "Honey",
     "ap_id": 94,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GROWTH_MULCH": {
     "label": "Growth Mulch",
     "ap_id": 95,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DAMP_MULCH": {
     "label": "Damp Mulch",
     "ap_id": 96,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_STABLE_MULCH": {
     "label": "Stable Mulch",
     "ap_id": 97,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GOOEY_MULCH": {
     "label": "Gooey Mulch",
     "ap_id": 98,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ROOT_FOSSIL": {
     "label": "Root Fossil",
     "ap_id": 99,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CLAW_FOSSIL": {
     "label": "Claw Fossil",
     "ap_id": 100,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HELIX_FOSSIL": {
     "label": "Helix Fossil",
     "ap_id": 101,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DOME_FOSSIL": {
     "label": "Dome Fossil",
     "ap_id": 102,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_OLD_AMBER": {
     "label": "Old Amber",
     "ap_id": 103,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ARMOR_FOSSIL": {
     "label": "Armor Fossil",
     "ap_id": 104,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SKULL_FOSSIL": {
     "label": "Skull Fossil",
     "ap_id": 105,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RARE_BONE": {
     "label": "Rare Bone",
     "ap_id": 106,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SHINY_STONE": {
     "label": "Shiny Stone",
     "ap_id": 107,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DUSK_STONE": {
     "label": "Dusk Stone",
     "ap_id": 108,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DAWN_STONE": {
     "label": "Dawn Stone",
     "ap_id": 109,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_OVAL_STONE": {
     "label": "Oval Stone",
     "ap_id": 110,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ODD_KEYSTONE": {
     "label": "Odd Keystone",
     "ap_id": 111,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GRISEOUS_ORB": {
     "label": "Griseous Orb",
     "ap_id": 112,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_UNKNOWN": {
     "label": "unknown",
     "ap_id": 113,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_DOUSE_DRIVE": {
     "label": "Douse Drive",
     "ap_id": 116,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SHOCK_DRIVE": {
     "label": "Shock Drive",
     "ap_id": 117,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BURN_DRIVE": {
     "label": "Burn Drive",
     "ap_id": 118,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CHILL_DRIVE": {
     "label": "Chill Drive",
     "ap_id": 119,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SWEET_HEART": {
     "label": "Sweet Heart",
     "ap_id": 134,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_ADAMANT_ORB": {
     "label": "Adamant Orb",
     "ap_id": 135,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LUSTROUS_ORB": {
     "label": "Lustrous Orb",
     "ap_id": 136,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GREET_MAIL": {
     "label": "Greet Mail",
     "ap_id": 137,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FAVORED_MAIL": {
     "label": "Favored Mail",
     "ap_id": 138,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RSVP_MAIL": {
     "label": "RSVP Mail",
     "ap_id": 139,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_THANKS_MAIL": {
     "label": "Thanks Mail",
     "ap_id": 140,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_INQUIRY_MAIL": {
     "label": "Inquiry Mail",
     "ap_id": 141,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LIKE_MAIL": {
     "label": "Like Mail",
     "ap_id": 142,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_REPLY_MAIL": {
     "label": "Reply Mail",
     "ap_id": 143,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BRIDGE_MAIL_S": {
     "label": "Bridge Mail S",
     "ap_id": 144,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BRIDGE_MAIL_D": {
     "label": "Bridge Mail D",
     "ap_id": 145,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BRIDGE_MAIL_T": {
     "label": "Bridge Mail T",
     "ap_id": 146,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BRIDGE_MAIL_V": {
     "label": "Bridge Mail V",
     "ap_id": 147,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BRIDGE_MAIL_M": {
     "label": "Bridge Mail M",
     "ap_id": 148,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CHERI_BERRY": {
     "label": "Cheri Berry",
     "ap_id": 149,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_CHESTO_BERRY": {
     "label": "Chesto Berry",
     "ap_id": 150,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_PECHA_BERRY": {
     "label": "Pecha Berry",
     "ap_id": 151,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_RAWST_BERRY": {
     "label": "Rawst Berry",
     "ap_id": 152,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_ASPEAR_BERRY": {
     "label": "Aspear Berry",
     "ap_id": 153,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_LEPPA_BERRY": {
     "label": "Leppa Berry",
     "ap_id": 154,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_ORAN_BERRY": {
     "label": "Oran Berry",
     "ap_id": 155,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_PERSIM_BERRY": {
     "label": "Persim Berry",
     "ap_id": 156,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_LUM_BERRY": {
     "label": "Lum Berry",
     "ap_id": 157,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_SITRUS_BERRY": {
     "label": "Sitrus Berry",
     "ap_id": 158,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_FIGY_BERRY": {
     "label": "Figy Berry",
     "ap_id": 159,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_WIKI_BERRY": {
     "label": "Wiki Berry",
     "ap_id": 160,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_MAGO_BERRY": {
     "label": "Mago Berry",
     "ap_id": 161,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_AGUAV_BERRY": {
     "label": "Aguav Berry",
     "ap_id": 162,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_IAPAPA_BERRY": {
     "label": "Iapapa Berry",
     "ap_id": 163,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_RAZZ_BERRY": {
     "label": "Razz Berry",
     "ap_id": 164,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_BLUK_BERRY": {
     "label": "Bluk Berry",
     "ap_id": 165,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_NANAB_BERRY": {
     "label": "Nanab Berry",
     "ap_id": 166,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_WEPEAR_BERRY": {
     "label": "Wepear Berry",
     "ap_id": 167,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_PINAP_BERRY": {
     "label": "Pinap Berry",
     "ap_id": 168,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_POMEG_BERRY": {
     "label": "Pomeg Berry",
     "ap_id": 169,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_KELPSY_BERRY": {
     "label": "Kelpsy Berry",
     "ap_id": 170,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_QUALOT_BERRY": {
     "label": "Qualot Berry",
     "ap_id": 171,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_HONDEW_BERRY": {
     "label": "Hondew Berry",
     "ap_id": 172,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_GREPA_BERRY": {
     "label": "Grepa Berry",
     "ap_id": 173,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_TAMATO_BERRY": {
     "label": "Tamato Berry",
     "ap_id": 174,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_CORNN_BERRY": {
     "label": "Cornn Berry",
     "ap_id": 175,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_MAGOST_BERRY": {
     "label": "Magost Berry",
     "ap_id": 176,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_RABUTA_BERRY": {
     "label": "Rabuta Berry",
     "ap_id": 177,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_NOMEL_BERRY": {
     "label": "Nomel Berry",
     "ap_id": 178,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_SPELON_BERRY": {
     "label": "Spelon Berry",
     "ap_id": 179,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_PAMTRE_BERRY": {
     "label": "Pamtre Berry",
     "ap_id": 180,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_WATMEL_BERRY": {
     "label": "Watmel Berry",
     "ap_id": 181,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_DURIN_BERRY": {
     "label": "Durin Berry",
     "ap_id": 182,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_BELUE_BERRY": {
     "label": "Belue Berry",
     "ap_id": 183,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_OCCA_BERRY": {
     "label": "Occa Berry",
     "ap_id": 184,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_PASSHO_BERRY": {
     "label": "Passho Berry",
     "ap_id": 185,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_WACAN_BERRY": {
     "label": "Wacan Berry",
     "ap_id": 186,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_RINDO_BERRY": {
     "label": "Rindo Berry",
     "ap_id": 187,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_YACHE_BERRY": {
     "label": "Yache Berry",
     "ap_id": 188,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_CHOPLE_BERRY": {
     "label": "Chople Berry",
     "ap_id": 189,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_KEBIA_BERRY": {
     "label": "Kebia Berry",
     "ap_id": 190,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_SHUCA_BERRY": {
     "label": "Shuca Berry",
     "ap_id": 191,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_COBA_BERRY": {
     "label": "Coba Berry",
     "ap_id": 192,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_PAYAPA_BERRY": {
     "label": "Payapa Berry",
     "ap_id": 193,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_TANGA_BERRY": {
     "label": "Tanga Berry",
     "ap_id": 194,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_CHARTI_BERRY": {
     "label": "Charti Berry",
     "ap_id": 195,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_KASIB_BERRY": {
     "label": "Kasib Berry",
     "ap_id": 196,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_HABAN_BERRY": {
     "label": "Haban Berry",
     "ap_id": 197,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_COLBUR_BERRY": {
     "label": "Colbur Berry",
     "ap_id": 198,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_BABIRI_BERRY": {
     "label": "Babiri Berry",
     "ap_id": 199,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_CHILAN_BERRY": {
     "label": "Chilan Berry",
     "ap_id": 200,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_LIECHI_BERRY": {
     "label": "Liechi Berry",
     "ap_id": 201,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_GANLON_BERRY": {
     "label": "Ganlon Berry",
     "ap_id": 202,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_SALAC_BERRY": {
     "label": "Salac Berry",
     "ap_id": 203,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_PETAYA_BERRY": {
     "label": "Petaya Berry",
     "ap_id": 204,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_APICOT_BERRY": {
     "label": "Apicot Berry",
     "ap_id": 205,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_LANSAT_BERRY": {
     "label": "Lansat Berry",
     "ap_id": 206,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_STARF_BERRY": {
     "label": "Starf Berry",
     "ap_id": 207,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_ENIGMA_BERRY": {
     "label": "Enigma Berry",
     "ap_id": 208,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_MICLE_BERRY": {
     "label": "Micle Berry",
     "ap_id": 209,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_CUSTAP_BERRY": {
     "label": "Custap Berry",
     "ap_id": 210,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_JABOCA_BERRY": {
     "label": "Jaboca Berry",
     "ap_id": 211,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_ROWAP_BERRY": {
     "label": "Rowap Berry",
     "ap_id": 212,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_BRIGHT_POWDER": {
     "label": "Bright Powder",
     "ap_id": 213,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WHITE_HERB": {
     "label": "White Herb",
     "ap_id": 214,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MACHO_BRACE": {
     "label": "Macho Brace",
     "ap_id": 215,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_EXP_SHARE": {
     "label": "Exp. Share",
     "ap_id": 216,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_QUICK_CLAW": {
     "label": "Quick Claw",
     "ap_id": 217,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SOOTHE_BELL": {
     "label": "Soothe Bell",
     "ap_id": 218,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MENTAL_HERB": {
     "label": "Mental Herb",
     "ap_id": 219,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CHOICE_BAND": {
     "label": "Choice Band",
     "ap_id": 220,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_KING_S_ROCK": {
     "label": "King's Rock",
     "ap_id": 221,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SILVER_POWDER": {
     "label": "Silver Powder",
     "ap_id": 222,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_AMULET_COIN": {
     "label": "Amulet Coin",
     "ap_id": 223,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CLEANSE_TAG": {
     "label": "Cleanse Tag",
     "ap_id": 224,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SOUL_DEW": {
     "label": "Soul Dew",
     "ap_id": 225,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DEEP_SEA_TOOTH": {
     "label": "Deep Sea Tooth",
     "ap_id": 226,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DEEP_SEA_SCALE": {
     "label": "Deep Sea Scale",
     "ap_id": 227,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SMOKE_BALL": {
     "label": "Smoke Ball",
     "ap_id": 228,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_EVERSTONE": {
     "label": "Everstone",
     "ap_id": 229,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FOCUS_BAND": {
     "label": "Focus Band",
     "ap_id": 230,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LUCKY_EGG": {
     "label": "Lucky Egg",
     "ap_id": 231,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SCOPE_LENS": {
     "label": "Scope Lens",
     "ap_id": 232,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_METAL_COAT": {
     "label": "Metal Coat",
     "ap_id": 233,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LEFTOVERS": {
     "label": "Leftovers",
     "ap_id": 234,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DRAGON_SCALE": {
     "label": "Dragon Scale",
     "ap_id": 235,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LIGHT_BALL": {
     "label": "Light Ball",
     "ap_id": 236,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SOFT_SAND": {
     "label": "Soft Sand",
     "ap_id": 237,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HARD_STONE": {
     "label": "Hard Stone",
     "ap_id": 238,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MIRACLE_SEED": {
     "label": "Miracle Seed",
     "ap_id": 239,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLACK_GLASSES": {
     "label": "Black Glasses",
     "ap_id": 240,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLACK_BELT": {
     "label": "Black Belt",
     "ap_id": 241,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MAGNET": {
     "label": "Magnet",
     "ap_id": 242,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MYSTIC_WATER": {
     "label": "Mystic Water",
     "ap_id": 243,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SHARP_BEAK": {
     "label": "Sharp Beak",
     "ap_id": 244,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POISON_BARB": {
     "label": "Poison Barb",
     "ap_id": 245,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_NEVER_MELT_ICE": {
     "label": "Never-Melt Ice",
     "ap_id": 246,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SPELL_TAG": {
     "label": "Spell Tag",
     "ap_id": 247,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_TWISTED_SPOON": {
     "label": "Twisted Spoon",
     "ap_id": 248,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CHARCOAL": {
     "label": "Charcoal",
     "ap_id": 249,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DRAGON_FANG": {
     "label": "Dragon Fang",
     "ap_id": 250,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SILK_SCARF": {
     "label": "Silk Scarf",
     "ap_id": 251,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_UP_GRADE": {
     "label": "Up-Grade",
     "ap_id": 252,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SHELL_BELL": {
     "label": "Shell Bell",
     "ap_id": 253,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SEA_INCENSE": {
     "label": "Sea Incense",
     "ap_id": 254,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LAX_INCENSE": {
     "label": "Lax Incense",
     "ap_id": 255,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LUCKY_PUNCH": {
     "label": "Lucky Punch",
     "ap_id": 256,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_METAL_POWDER": {
     "label": "Metal Powder",
     "ap_id": 257,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_THICK_CLUB": {
     "label": "Thick Club",
     "ap_id": 258,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_STICK": {
     "label": "Stick",
     "ap_id": 259,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RED_SCARF": {
     "label": "Red Scarf",
     "ap_id": 260,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLUE_SCARF": {
     "label": "Blue Scarf",
     "ap_id": 261,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PINK_SCARF": {
     "label": "Pink Scarf",
     "ap_id": 262,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GREEN_SCARF": {
     "label": "Green Scarf",
     "ap_id": 263,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_YELLOW_SCARF": {
     "label": "Yellow Scarf",
     "ap_id": 264,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WIDE_LENS": {
     "label": "Wide Lens",
     "ap_id": 265,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MUSCLE_BAND": {
     "label": "Muscle Band",
     "ap_id": 266,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WISE_GLASSES": {
     "label": "Wise Glasses",
     "ap_id": 267,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_EXPERT_BELT": {
     "label": "Expert Belt",
     "ap_id": 268,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LIGHT_CLAY": {
     "label": "Light Clay",
     "ap_id": 269,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LIFE_ORB": {
     "label": "Life Orb",
     "ap_id": 270,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POWER_HERB": {
     "label": "Power Herb",
     "ap_id": 271,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_TOXIC_ORB": {
     "label": "Toxic Orb",
     "ap_id": 272,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FLAME_ORB": {
     "label": "Flame Orb",
     "ap_id": 273,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_QUICK_POWDER": {
     "label": "Quick Powder",
     "ap_id": 274,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FOCUS_SASH": {
     "label": "Focus Sash",
     "ap_id": 275,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ZOOM_LENS": {
     "label": "Zoom Lens",
     "ap_id": 276,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_METRONOME": {
     "label": "Metronome",
     "ap_id": 277,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_IRON_BALL": {
     "label": "Iron Ball",
     "ap_id": 278,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LAGGING_TAIL": {
     "label": "Lagging Tail",
     "ap_id": 279,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DESTINY_KNOT": {
     "label": "Destiny Knot",
     "ap_id": 280,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLACK_SLUDGE": {
     "label": "Black Sludge",
     "ap_id": 281,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ICY_ROCK": {
     "label": "Icy Rock",
     "ap_id": 282,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SMOOTH_ROCK": {
     "label": "Smooth Rock",
     "ap_id": 283,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HEAT_ROCK": {
     "label": "Heat Rock",
     "ap_id": 284,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DAMP_ROCK": {
     "label": "Damp Rock",
     "ap_id": 285,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GRIP_CLAW": {
     "label": "Grip Claw",
     "ap_id": 286,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CHOICE_SCARF": {
     "label": "Choice Scarf",
     "ap_id": 287,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_STICKY_BARB": {
     "label": "Sticky Barb",
     "ap_id": 288,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POWER_BRACER": {
     "label": "Power Bracer",
     "ap_id": 289,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POWER_BELT": {
     "label": "Power Belt",
     "ap_id": 290,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POWER_LENS": {
     "label": "Power Lens",
     "ap_id": 291,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POWER_BAND": {
     "label": "Power Band",
     "ap_id": 292,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POWER_ANKLET": {
     "label": "Power Anklet",
     "ap_id": 293,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POWER_WEIGHT": {
     "label": "Power Weight",
     "ap_id": 294,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SHED_SHELL": {
     "label": "Shed Shell",
     "ap_id": 295,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BIG_ROOT": {
     "label": "Big Root",
     "ap_id": 296,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CHOICE_SPECS": {
     "label": "Choice Specs",
     "ap_id": 297,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FLAME_PLATE": {
     "label": "Flame Plate",
     "ap_id": 298,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SPLASH_PLATE": {
     "label": "Splash Plate",
     "ap_id": 299,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ZAP_PLATE": {
     "label": "Zap Plate",
     "ap_id": 300,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MEADOW_PLATE": {
     "label": "Meadow Plate",
     "ap_id": 301,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ICICLE_PLATE": {
     "label": "Icicle Plate",
     "ap_id": 302,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FIST_PLATE": {
     "label": "Fist Plate",
     "ap_id": 303,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_TOXIC_PLATE": {
     "label": "Toxic Plate",
     "ap_id": 304,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_EARTH_PLATE": {
     "label": "Earth Plate",
     "ap_id": 305,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SKY_PLATE": {
     "label": "Sky Plate",
     "ap_id": 306,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MIND_PLATE": {
     "label": "Mind Plate",
     "ap_id": 307,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_INSECT_PLATE": {
     "label": "Insect Plate",
     "ap_id": 308,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_STONE_PLATE": {
     "label": "Stone Plate",
     "ap_id": 309,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SPOOKY_PLATE": {
     "label": "Spooky Plate",
     "ap_id": 310,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DRACO_PLATE": {
     "label": "Draco Plate",
     "ap_id": 311,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DREAD_PLATE": {
     "label": "Dread Plate",
     "ap_id": 312,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_IRON_PLATE": {
     "label": "Iron Plate",
     "ap_id": 313,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ODD_INCENSE": {
     "label": "Odd Incense",
     "ap_id": 314,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ROCK_INCENSE": {
     "label": "Rock Incense",
     "ap_id": 315,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FULL_INCENSE": {
     "label": "Full Incense",
     "ap_id": 316,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WAVE_INCENSE": {
     "label": "Wave Incense",
     "ap_id": 317,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ROSE_INCENSE": {
     "label": "Rose Incense",
     "ap_id": 318,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LUCK_INCENSE": {
     "label": "Luck Incense",
     "ap_id": 319,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PURE_INCENSE": {
     "label": "Pure Incense",
     "ap_id": 320,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PROTECTOR": {
     "label": "Protector",
     "ap_id": 321,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ELECTIRIZER": {
     "label": "Electirizer",
     "ap_id": 322,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MAGMARIZER": {
     "label": "Magmarizer",
     "ap_id": 323,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DUBIOUS_DISC": {
     "label": "Dubious Disc",
     "ap_id": 324,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_REAPER_CLOTH": {
     "label": "Reaper Cloth",
     "ap_id": 325,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RAZOR_CLAW": {
     "label": "Razor Claw",
     "ap_id": 326,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RAZOR_FANG": {
     "label": "Razor Fang",
     "ap_id": 327,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_TM01": {
     "label": "TM01",
     "ap_id": 328,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM02": {
     "label": "TM02",
     "ap_id": 329,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM03": {
     "label": "TM03",
     "ap_id": 330,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM04": {
     "label": "TM04",
     "ap_id": 331,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM05": {
     "label": "TM05",
     "ap_id": 332,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM06": {
     "label": "TM06",
     "ap_id": 333,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM07": {
     "label": "TM07",
     "ap_id": 334,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM08": {
     "label": "TM08",
     "ap_id": 335,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM09": {
     "label": "TM09",
     "ap_id": 336,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM10": {
     "label": "TM10",
     "ap_id": 337,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM11": {
     "label": "TM11",
     "ap_id": 338,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM12": {
     "label": "TM12",
     "ap_id": 339,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM13": {
     "label": "TM13",
     "ap_id": 340,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM14": {
     "label": "TM14",
     "ap_id": 341,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM15": {
     "label": "TM15",
     "ap_id": 342,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM16": {
     "label": "TM16",
     "ap_id": 343,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM17": {
     "label": "TM17",
     "ap_id": 344,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM18": {
     "label": "TM18",
     "ap_id": 345,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM19": {
     "label": "TM19",
     "ap_id": 346,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM20": {
     "label": "TM20",
     "ap_id": 347,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM21": {
     "label": "TM21",
     "ap_id": 348,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM22": {
     "label": "TM22",
     "ap_id": 349,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM23": {
     "label": "TM23",
     "ap_id": 350,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM24": {
     "label": "TM24",
     "ap_id": 351,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM25": {
     "label": "TM25",
     "ap_id": 352,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM26": {
     "label": "TM26",
     "ap_id": 353,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM27": {
     "label": "TM27",
     "ap_id": 354,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM28": {
     "label": "TM28",
     "ap_id": 355,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM29": {
     "label": "TM29",
     "ap_id": 356,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM30": {
     "label": "TM30",
     "ap_id": 357,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM31": {
     "label": "TM31",
     "ap_id": 358,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM32": {
     "label": "TM32",
     "ap_id": 359,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM33": {
     "label": "TM33",
     "ap_id": 360,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM34": {
     "label": "TM34",
     "ap_id": 361,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM35": {
     "label": "TM35",
     "ap_id": 362,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM36": {
     "label": "TM36",
     "ap_id": 363,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM37": {
     "label": "TM37",
     "ap_id": 364,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM38": {
     "label": "TM38",
     "ap_id": 365,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM39": {
     "label": "TM39",
     "ap_id": 366,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM40": {
     "label": "TM40",
     "ap_id": 367,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM41": {
     "label": "TM41",
     "ap_id": 368,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM42": {
     "label": "TM42",
     "ap_id": 369,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM43": {
     "label": "TM43",
     "ap_id": 370,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM44": {
     "label": "TM44",
     "ap_id": 371,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM45": {
     "label": "TM45",
     "ap_id": 372,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM46": {
     "label": "TM46",
     "ap_id": 373,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM47": {
     "label": "TM47",
     "ap_id": 374,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM48": {
     "label": "TM48",
     "ap_id": 375,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM49": {
     "label": "TM49",
     "ap_id": 376,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM50": {
     "label": "TM50",
     "ap_id": 377,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM51": {
     "label": "TM51",
     "ap_id": 378,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM52": {
     "label": "TM52",
     "ap_id": 379,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM53": {
     "label": "TM53",
     "ap_id": 380,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM54": {
     "label": "TM54",
     "ap_id": 381,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM55": {
     "label": "TM55",
     "ap_id": 382,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM56": {
     "label": "TM56",
     "ap_id": 383,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM57": {
     "label": "TM57",
     "ap_id": 384,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM58": {
     "label": "TM58",
     "ap_id": 385,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM59": {
     "label": "TM59",
     "ap_id": 386,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM60": {
     "label": "TM60",
     "ap_id": 387,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM61": {
     "label": "TM61",
     "ap_id": 388,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM62": {
     "label": "TM62",
     "ap_id": 389,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM63": {
     "label": "TM63",
     "ap_id": 390,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM64": {
     "label": "TM64",
     "ap_id": 391,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM65": {
     "label": "TM65",
     "ap_id": 392,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM66": {
     "label": "TM66",
     "ap_id": 393,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM67": {
     "label": "TM67",
     "ap_id": 394,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM68": {
     "label": "TM68",
     "ap_id": 395,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM69": {
     "label": "TM69",
     "ap_id": 396,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM70": {
     "label": "TM70",
     "ap_id": 397,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM71": {
     "label": "TM71",
     "ap_id": 398,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM72": {
     "label": "TM72",
     "ap_id": 399,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM73": {
     "label": "TM73",
     "ap_id": 400,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM74": {
     "label": "TM74",
     "ap_id": 401,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM75": {
     "label": "TM75",
     "ap_id": 402,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM76": {
     "label": "TM76",
     "ap_id": 403,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM77": {
     "label": "TM77",
     "ap_id": 404,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM78": {
     "label": "TM78",
     "ap_id": 405,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM79": {
     "label": "TM79",
     "ap_id": 406,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM80": {
     "label": "TM80",
     "ap_id": 407,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM81": {
     "label": "TM81",
     "ap_id": 408,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM82": {
     "label": "TM82",
     "ap_id": 409,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM83": {
     "label": "TM83",
     "ap_id": 410,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM84": {
     "label": "TM84",
     "ap_id": 411,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM85": {
     "label": "TM85",
     "ap_id": 412,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM86": {
     "label": "TM86",
     "ap_id": 413,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM87": {
     "label": "TM87",
     "ap_id": 414,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM88": {
     "label": "TM88",
     "ap_id": 415,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM89": {
     "label": "TM89",
     "ap_id": 416,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM90": {
     "label": "TM90",
     "ap_id": 417,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM91": {
     "label": "TM91",
     "ap_id": 418,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM92": {
     "label": "TM92",
     "ap_id": 419,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_HM01": {
     "label": "HM01",
     "ap_id": 420,
     "classification": "PROGRESSION",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_HM02": {
     "label": "HM02",
     "ap_id": 421,
     "classification": "PROGRESSION",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_HM03": {
     "label": "HM03",
     "ap_id": 422,
     "classification": "PROGRESSION",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_HM04": {
     "label": "HM04",
     "ap_id": 423,
     "classification": "PROGRESSION",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_HM05": {
     "label": "HM05",
     "ap_id": 424,
     "classification": "PROGRESSION",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_EXPLORER_KIT": {
     "label": "Explorer Kit",
     "ap_id": 428,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_LOOT_SACK": {
     "label": "Loot Sack",
     "ap_id": 429,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_RULE_BOOK": {
     "label": "Rule Book",
     "ap_id": 430,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_POKE_RADAR": {
     "label": "Poké Radar",
     "ap_id": 431,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_POINT_CARD": {
     "label": "Point Card",
     "ap_id": 432,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_JOURNAL": {
     "label": "Journal",
     "ap_id": 433,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SEAL_CASE": {
     "label": "Seal Case",
     "ap_id": 434,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_FASHION_CASE": {
     "label": "Fashion Case",
     "ap_id": 435,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SEAL_BAG": {
     "label": "Seal Bag",
     "ap_id": 436,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_PAL_PAD": {
     "label": "Pal Pad",
     "ap_id": 437,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_WORKS_KEY": {
     "label": "Works Key",
     "ap_id": 438,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_OLD_CHARM": {
     "label": "Old Charm",
     "ap_id": 439,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_GALACTIC_KEY": {
     "label": "Galactic Key",
     "ap_id": 440,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_RED_CHAIN": {
     "label": "Red Chain",
     "ap_id": 441,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_TOWN_MAP": {
     "label": "Town Map",
     "ap_id": 442,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_VS_SEEKER": {
     "label": "Vs. Seeker",
     "ap_id": 443,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_COIN_CASE": {
     "label": "Coin Case",
     "ap_id": 444,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_OLD_ROD": {
     "label": "Old Rod",
     "ap_id": 445,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_GOOD_ROD": {
     "label": "Good Rod",
     "ap_id": 446,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SUPER_ROD": {
     "label": "Super Rod",
     "ap_id": 447,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SPRAYDUCK": {
     "label": "Sprayduck",
     "ap_id": 448,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_POFFIN_CASE": {
     "label": "Poffin Case",
     "ap_id": 449,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_BICYCLE_": {
     "label": "Bicycle*",
     "ap_id": 450,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SUITE_KEY": {
     "label": "Suite Key",
     "ap_id": 451,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_OAK_S_LETTER": {
     "label": "Oak's Letter",
     "ap_id": 452,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_LUNAR_WING": {
     "label": "Lunar Wing",
     "ap_id": 453,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_MEMBER_CARD": {
     "label": "Member Card",
     "ap_id": 454,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_AZURE_FLUTE": {
     "label": "Azure Flute",
     "ap_id": 455,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_S_S_TICKET": {
     "label": "S.S. Ticket",
     "ap_id": 456,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_CONTEST_PASS": {
     "label": "Contest Pass",
     "ap_id": 457,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_MAGMA_STONE": {
     "label": "Magma Stone",
     "ap_id": 458,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_PARCEL": {
     "label": "Parcel",
     "ap_id": 459,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_COUPON_1": {
     "label": "Coupon 1",
     "ap_id": 460,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_COUPON_2": {
     "label": "Coupon 2",
     "ap_id": 461,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_COUPON_3": {
     "label": "Coupon 3",
     "ap_id": 462,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_STORAGE_KEY": {
     "label": "Storage Key",
     "ap_id": 463,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SECRET_POTION": {
     "label": "Secret Potion",
     "ap_id": 464,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_VS_RECORDER": {
     "label": "Vs. Recorder",
     "ap_id": 465,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_GRACIDEA": {
     "label": "Gracidea",
     "ap_id": 466,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SECRET_KEY": {
     "label": "Secret Key",
     "ap_id": 467,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_APRICORN_BOX": {
     "label": "Apricorn Box",
     "ap_id": 468,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_UNOWN_REPORT": {
     "label": "Unown Report",
     "ap_id": 469,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_BERRY_POTS": {
     "label": "Berry Pots",
     "ap_id": 470,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_DOWSING_MACHINE_": {
     "label": "Dowsing Machine*",
     "ap_id": 471,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_BLUE_CARD": {
     "label": "Blue Card",
     "ap_id": 472,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SLOWPOKE_TAIL": {
     "label": "Slowpoke Tail",
     "ap_id": 473,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_CLEAR_BELL": {
     "label": "Clear Bell",
     "ap_id": 474,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_CARD_KEY": {
     "label": "Card Key",
     "ap_id": 475,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_BASEMENT_KEY": {
     "label": "Basement Key",
     "ap_id": 476,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SQUIRT_BOTTLE": {
     "label": "Squirt Bottle",
     "ap_id": 477,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_RED_SCALE": {
     "label": "Red Scale",
     "ap_id": 478,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_LOST_ITEM": {
     "label": "Lost Item",
     "ap_id": 479,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_PASS": {
     "label": "Pass",
     "ap_id": 480,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_MACHINE_PART": {
     "label": "Machine Part",
     "ap_id": 481,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SILVER_WING": {
     "label": "Silver Wing",
     "ap_id": 482,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_RAINBOW_WING": {
     "label": "Rainbow Wing",
     "ap_id": 483,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_MYSTERY_EGG": {
     "label": "Mystery Egg",
     "ap_id": 484,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_RED_APRICORN": {
     "label": "Red Apricorn",
     "ap_id": 485,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLUE_APRICORN": {
     "label": "Blue Apricorn",
     "ap_id": 486,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_YELLOW_APRICORN": {
     "label": "Yellow Apricorn",
     "ap_id": 487,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GREEN_APRICORN": {
     "label": "Green Apricorn",
     "ap_id": 488,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PINK_APRICORN": {
     "label": "Pink Apricorn",
     "ap_id": 489,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WHITE_APRICORN": {
     "label": "White Apricorn",
     "ap_id": 490,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLACK_APRICORN": {
     "label": "Black Apricorn",
     "ap_id": 491,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FAST_BALL": {
     "label": "Fast Ball",
     "ap_id": 492,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LEVEL_BALL": {
     "label": "Level Ball",
     "ap_id": 493,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LURE_BALL": {
     "label": "Lure Ball",
     "ap_id": 494,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HEAVY_BALL": {
     "label": "Heavy Ball",
     "ap_id": 495,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LOVE_BALL": {
     "label": "Love Ball",
     "ap_id": 496,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FRIEND_BALL": {
     "label": "Friend Ball",
     "ap_id": 497,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MOON_BALL": {
     "label": "Moon Ball",
     "ap_id": 498,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SPORT_BALL": {
     "label": "Sport Ball",
     "ap_id": 499,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PARK_BALL": {
     "label": "Park Ball",
     "ap_id": 500,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PHOTO_ALBUM": {
     "label": "Photo Album",
     "ap_id": 501,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_GB_SOUNDS": {
     "label": "GB Sounds",
     "ap_id": 502,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_TIDAL_BELL": {
     "label": "Tidal Bell",
     "ap_id": 503,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_RAGE_CANDY_BAR": {
     "label": "Rage Candy Bar",
     "ap_id": 504,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_DATA_CARD_01": {
     "label": "Data Card 01",
     "ap_id": 505,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_02": {
     "label": "Data Card 02",
     "ap_id": 506,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_03": {
     "label": "Data Card 03",
     "ap_id": 507,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_04": {
     "label": "Data Card 04",
     "ap_id": 508,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_05": {
     "label": "Data Card 05",
     "ap_id": 509,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_06": {
     "label": "Data Card 06",
     "ap_id": 510,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_07": {
     "label": "Data Card 07",
     "ap_id": 511,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_08": {
     "label": "Data Card 08",
     "ap_id": 512,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_09": {
     "label": "Data Card 09",
     "ap_id": 513,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_10": {
     "label": "Data Card 10",
     "ap_id": 514,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_11": {
     "label": "Data Card 11",
     "ap_id": 515,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_12": {
     "label": "Data Card 12",
     "ap_id": 516,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_13": {
     "label": "Data Card 13",
     "ap_id": 517,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_14": {
     "label": "Data Card 14",
     "ap_id": 518,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_15": {
     "label": "Data Card 15",
     "ap_id": 519,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_16": {
     "label": "Data Card 16",
     "ap_id": 520,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_17": {
     "label": "Data Card 17",
     "ap_id": 521,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_18": {
     "label": "Data Card 18",
     "ap_id": 522,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_19": {
     "label": "Data Card 19",
     "ap_id": 523,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_20": {
     "label": "Data Card 20",
     "ap_id": 524,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_21": {
     "label": "Data Card 21",
     "ap_id": 525,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_22": {
     "label": "Data Card 22",
     "ap_id": 526,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_23": {
     "label": "Data Card 23",
     "ap_id": 527,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_24": {
     "label": "Data Card 24",
     "ap_id": 528,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_25": {
     "label": "Data Card 25",
     "ap_id": 529,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_26": {
     "label": "Data Card 26",
     "ap_id": 530,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DATA_CARD_27": {
     "label": "Data Card 27",
     "ap_id": 531,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_JADE_ORB": {
     "label": "Jade Orb",
     "ap_id": 532,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_LOCK_CAPSULE": {
     "label": "Lock Capsule",
     "ap_id": 533,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_RED_ORB_": {
     "label": "Red Orb*",
     "ap_id": 534,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_BLUE_ORB_": {
     "label": "Blue Orb*",
     "ap_id": 535,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_ENIGMA_STONE": {
     "label": "Enigma Stone",
     "ap_id": 536,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_PRISM_SCALE": {
     "label": "Prism Scale",
     "ap_id": 537,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_EVIOLITE": {
     "label": "Eviolite",
     "ap_id": 538,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FLOAT_STONE": {
     "label": "Float Stone",
     "ap_id": 539,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ROCKY_HELMET": {
     "label": "Rocky Helmet",
     "ap_id": 540,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_AIR_BALLOON": {
     "label": "Air Balloon",
     "ap_id": 541,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RED_CARD": {
     "label": "Red Card",
     "ap_id": 542,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RING_TARGET": {
     "label": "Ring Target",
     "ap_id": 543,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BINDING_BAND": {
     "label": "Binding Band",
     "ap_id": 544,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ABSORB_BULB": {
     "label": "Absorb Bulb",
     "ap_id": 545,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CELL_BATTERY": {
     "label": "Cell Battery",
     "ap_id": 546,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_EJECT_BUTTON": {
     "label": "Eject Button",
     "ap_id": 547,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FIRE_GEM": {
     "label": "Fire Gem",
     "ap_id": 548,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WATER_GEM": {
     "label": "Water Gem",
     "ap_id": 549,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ELECTRIC_GEM": {
     "label": "Electric Gem",
     "ap_id": 550,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GRASS_GEM": {
     "label": "Grass Gem",
     "ap_id": 551,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ICE_GEM": {
     "label": "Ice Gem",
     "ap_id": 552,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FIGHTING_GEM": {
     "label": "Fighting Gem",
     "ap_id": 553,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POISON_GEM": {
     "label": "Poison Gem",
     "ap_id": 554,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GROUND_GEM": {
     "label": "Ground Gem",
     "ap_id": 555,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_FLYING_GEM": {
     "label": "Flying Gem",
     "ap_id": 556,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PSYCHIC_GEM": {
     "label": "Psychic Gem",
     "ap_id": 557,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BUG_GEM": {
     "label": "Bug Gem",
     "ap_id": 558,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ROCK_GEM": {
     "label": "Rock Gem",
     "ap_id": 559,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GHOST_GEM": {
     "label": "Ghost Gem",
     "ap_id": 560,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DRAGON_GEM": {
     "label": "Dragon Gem",
     "ap_id": 561,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DARK_GEM": {
     "label": "Dark Gem",
     "ap_id": 562,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_STEEL_GEM": {
     "label": "Steel Gem",
     "ap_id": 563,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_NORMAL_GEM": {
     "label": "Normal Gem",
     "ap_id": 564,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HEALTH_WING": {
     "label": "Health Wing",
     "ap_id": 565,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MUSCLE_WING": {
     "label": "Muscle Wing",
     "ap_id": 566,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RESIST_WING": {
     "label": "Resist Wing",
     "ap_id": 567,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GENIUS_WING": {
     "label": "Genius Wing",
     "ap_id": 568,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CLEVER_WING": {
     "label": "Clever Wing",
     "ap_id": 569,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SWIFT_WING": {
     "label": "Swift Wing",
     "ap_id": 570,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PRETTY_WING": {
     "label": "Pretty Wing",
     "ap_id": 571,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_COVER_FOSSIL": {
     "label": "Cover Fossil",
     "ap_id": 572,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PLUME_FOSSIL": {
     "label": "Plume Fossil",
     "ap_id": 573,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LIBERTY_PASS": {
     "label": "Liberty Pass",
     "ap_id": 574,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_PASS_ORB": {
     "label": "Pass Orb",
     "ap_id": 575,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_DREAM_BALL": {
     "label": "Dream Ball",
     "ap_id": 576,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POKE_TOY": {
     "label": "Poké Toy",
     "ap_id": 577,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PROP_CASE": {
     "label": "Prop Case",
     "ap_id": 578,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_DRAGON_SKULL": {
     "label": "Dragon Skull",
     "ap_id": 579,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_BALM_MUSHROOM": {
     "label": "Balm Mushroom",
     "ap_id": 580,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BIG_NUGGET": {
     "label": "Big Nugget",
     "ap_id": 581,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PEARL_STRING": {
     "label": "Pearl String",
     "ap_id": 582,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_COMET_SHARD": {
     "label": "Comet Shard",
     "ap_id": 583,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RELIC_COPPER": {
     "label": "Relic Copper",
     "ap_id": 584,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RELIC_SILVER": {
     "label": "Relic Silver",
     "ap_id": 585,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RELIC_GOLD": {
     "label": "Relic Gold",
     "ap_id": 586,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RELIC_VASE": {
     "label": "Relic Vase",
     "ap_id": 587,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RELIC_BAND": {
     "label": "Relic Band",
     "ap_id": 588,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RELIC_STATUE": {
     "label": "Relic Statue",
     "ap_id": 589,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_RELIC_CROWN": {
     "label": "Relic Crown",
     "ap_id": 590,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CASTELIACONE": {
     "label": "Casteliacone",
     "ap_id": 591,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_DIRE_HIT_2": {
     "label": "Dire Hit 2",
     "ap_id": 592,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_SPEED_2": {
     "label": "X Speed 2",
     "ap_id": 593,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_SP_ATK_2": {
     "label": "X Sp. Atk 2",
     "ap_id": 594,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_SP_DEF_2": {
     "label": "X Sp. Def 2",
     "ap_id": 595,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_DEFENSE_2": {
     "label": "X Defense 2",
     "ap_id": 596,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_ATTACK_2": {
     "label": "X Attack 2",
     "ap_id": 597,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_ACCURACY_2": {
     "label": "X Accuracy 2",
     "ap_id": 598,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_SPEED_3": {
     "label": "X Speed 3",
     "ap_id": 599,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_SP_ATK_3": {
     "label": "X Sp. Atk 3",
     "ap_id": 600,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_SP_DEF_3": {
     "label": "X Sp. Def 3",
     "ap_id": 601,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_DEFENSE_3": {
     "label": "X Defense 3",
     "ap_id": 602,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_ATTACK_3": {
     "label": "X Attack 3",
     "ap_id": 603,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_ACCURACY_3": {
     "label": "X Accuracy 3",
     "ap_id": 604,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_SPEED_6": {
     "label": "X Speed 6",
     "ap_id": 605,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_SP_ATK_6": {
     "label": "X Sp. Atk 6",
     "ap_id": 606,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_SP_DEF_6": {
     "label": "X Sp. Def 6",
     "ap_id": 607,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_DEFENSE_6": {
     "label": "X Defense 6",
     "ap_id": 608,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_ATTACK_6": {
     "label": "X Attack 6",
     "ap_id": 609,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_X_ACCURACY_6": {
     "label": "X Accuracy 6",
     "ap_id": 610,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_ABILITY_URGE": {
     "label": "Ability Urge",
     "ap_id": 611,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_ITEM_DROP": {
     "label": "Item Drop",
     "ap_id": 612,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_ITEM_URGE": {
     "label": "Item Urge",
     "ap_id": 613,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_RESET_URGE": {
     "label": "Reset Urge",
     "ap_id": 614,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_DIRE_HIT_3": {
     "label": "Dire Hit 3",
     "ap_id": 615,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_LIGHT_STONE": {
     "label": "Light Stone",
     "ap_id": 616,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_DARK_STONE": {
     "label": "Dark Stone",
     "ap_id": 617,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_TM93": {
     "label": "TM93",
     "ap_id": 618,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM94_ROCK_SMASH": {
     "label": "TM94 Rock Smash",
     "ap_id": 619,
     "classification": "PROGRESSION",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM95": {
     "label": "TM95",
     "ap_id": 620,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_XTRANSCEIVER": {
     "label": "Xtransceiver",
     "ap_id": 626,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM__": {
     "label": "???",
     "ap_id": 622,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_GRAM_1": {
     "label": "Gram 1",
     "ap_id": 623,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_GRAM_2": {
     "label": "Gram 2",
     "ap_id": 624,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_GRAM_3": {
     "label": "Gram 3",
     "ap_id": 625,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_MEDAL_BOX": {
     "label": "Medal Box",
     "ap_id": 627,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_DNA_SPLICERS": {
     "label": "DNA Splicers",
     "ap_id": 629,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_PERMIT": {
     "label": "Permit",
     "ap_id": 630,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_OVAL_CHARM": {
     "label": "Oval Charm",
     "ap_id": 631,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_SHINY_CHARM": {
     "label": "Shiny Charm",
     "ap_id": 632,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_PLASMA_CARD": {
     "label": "Plasma Card",
     "ap_id": 633,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_GRUBBY_HANKY": {
     "label": "Grubby Hanky",
     "ap_id": 634,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_COLRESS_MACHINE": {
     "label": "Colress Machine",
     "ap_id": 635,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_DROPPED_ITEM": {
     "label": "Dropped Item",
     "ap_id": 637,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_REVEAL_GLASS": {
     "label": "Reveal Glass",
     "ap_id": 638,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WEAKNESS_POLICY": {
     "label": "Weakness Policy",
     "ap_id": 639,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ASSAULT_VEST": {
     "label": "Assault Vest",
     "ap_id": 640,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HOLO_CASTER": {
     "label": "Holo Caster",
     "ap_id": 641,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_PROF_S_LETTER": {
     "label": "Prof's Letter",
     "ap_id": 642,
     "classification": "PROGRESSION",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_ROLLER_SKATES": {
     "label": "Roller Skates",
     "ap_id": 643,
     "classification": "USEFUL",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_PIXIE_PLATE": {
     "label": "Pixie Plate",
     "ap_id": 644,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ABILITY_CAPSULE": {
     "label": "Ability Capsule",
     "ap_id": 645,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_WHIPPED_DREAM": {
     "label": "Whipped Dream",
     "ap_id": 646,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SACHET": {
     "label": "Sachet",
     "ap_id": 647,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LUMINOUS_MOSS": {
     "label": "Luminous Moss",
     "ap_id": 648,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SNOWBALL": {
     "label": "Snowball",
     "ap_id": 649,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SAFETY_GOGGLES": {
     "label": "Safety Goggles",
     "ap_id": 650,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_POKE_FLUTE": {
     "label": "Poké Flute",
     "ap_id": 651,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_RICH_MULCH": {
     "label": "Rich Mulch",
     "ap_id": 652,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SURPRISE_MULCH": {
     "label": "Surprise Mulch",
     "ap_id": 653,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BOOST_MULCH": {
     "label": "Boost Mulch",
     "ap_id": 654,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_AMAZE_MULCH": {
     "label": "Amaze Mulch",
     "ap_id": 655,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GENGARITE": {
     "label": "Gengarite",
     "ap_id": 656,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GARDEVOIRITE": {
     "label": "Gardevoirite",
     "ap_id": 657,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_AMPHAROSITE": {
     "label": "Ampharosite",
     "ap_id": 658,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_VENUSAURITE": {
     "label": "Venusaurite",
     "ap_id": 659,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CHARIZARDITE_X": {
     "label": "Charizardite X",
     "ap_id": 660,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLASTOISINITE": {
     "label": "Blastoisinite",
     "ap_id": 661,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MEWTWONITE_X": {
     "label": "Mewtwonite X",
     "ap_id": 662,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MEWTWONITE_Y": {
     "label": "Mewtwonite Y",
     "ap_id": 663,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BLAZIKENITE": {
     "label": "Blazikenite",
     "ap_id": 664,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MEDICHAMITE": {
     "label": "Medichamite",
     "ap_id": 665,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HOUNDOOMINITE": {
     "label": "Houndoominite",
     "ap_id": 666,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_AGGRONITE": {
     "label": "Aggronite",
     "ap_id": 667,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_BANETTITE": {
     "label": "Banettite",
     "ap_id": 668,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_TYRANITARITE": {
     "label": "Tyranitarite",
     "ap_id": 669,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SCIZORITE": {
     "label": "Scizorite",
     "ap_id": 670,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_PINSIRITE": {
     "label": "Pinsirite",
     "ap_id": 671,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_AERODACTYLITE": {
     "label": "Aerodactylite",
     "ap_id": 672,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LUCARIONITE": {
     "label": "Lucarionite",
     "ap_id": 673,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ABOMASITE": {
     "label": "Abomasite",
     "ap_id": 674,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_KANGASKHANITE": {
     "label": "Kangaskhanite",
     "ap_id": 675,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GYARADOSITE": {
     "label": "Gyaradosite",
     "ap_id": 676,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ABSOLITE": {
     "label": "Absolite",
     "ap_id": 677,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_CHARIZARDITE_Y": {
     "label": "Charizardite Y",
     "ap_id": 678,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ALAKAZITE": {
     "label": "Alakazite",
     "ap_id": 679,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_HERACRONITE": {
     "label": "Heracronite",
     "ap_id": 680,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MAWILITE": {
     "label": "Mawilite",
     "ap_id": 681,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MANECTITE": {
     "label": "Manectite",
     "ap_id": 682,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_GARCHOMPITE": {
     "label": "Garchompite",
     "ap_id": 683,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LATIASITE": {
     "label": "Latiasite",
     "ap_id": 684,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LATIOSITE": {
     "label": "Latiosite",
     "ap_id": 685,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ROSELI_BERRY": {
     "label": "Roseli Berry",
     "ap_id": 686,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_KEE_BERRY": {
     "label": "Kee Berry",
     "ap_id": 687,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_MARANGA_BERRY": {
     "label": "Maranga Berry",
     "ap_id": 688,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_BERRIES"
   },
   "ITEM_SPRINKLOTAD": {
     "label": "Sprinklotad",
     "ap_id": 689,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_TM96": {
     "label": "TM96",
     "ap_id": 690,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM97": {
     "label": "TM97",
     "ap_id": 691,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM98": {
     "label": "TM98",
     "ap_id": 692,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM99": {
     "label": "TM99",
     "ap_id": 693,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_TM100": {
     "label": "TM100",
     "ap_id": 694,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_TM"
   },
   "ITEM_POWER_PLANT_PASS": {
     "label": "Power Plant Pass",
     "ap_id": 695,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_MEGA_RING": {
     "label": "Mega Ring",
     "ap_id": 696,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_INTRIGUING_STONE": {
     "label": "Intriguing Stone",
     "ap_id": 697,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_COMMON_STONE": {
     "label": "Common Stone",
     "ap_id": 698,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_DISCOUNT_COUPON": {
     "label": "Discount Coupon",
     "ap_id": 699,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_ELEVATOR_KEY": {
     "label": "Elevator Key",
     "ap_id": 700,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_TMV_PASS": {
     "label": "TMV Pass",
     "ap_id": 701,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_HONOR_OF_KALOS": {
     "label": "Honor of Kalos",
     "ap_id": 702,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_ADVENTURE_RULES": {
     "label": "Adventure Rules",
     "ap_id": 703,
     "classification": "FILLER",
-    "tags": ["Unique"]
+    "tags": [
+      "Unique"
+    ],
+    "bag": "BAG_KEY"
   },
   "ITEM_STRANGE_SOUVENIR": {
     "label": "Strange Souvenir",
     "ap_id": 704,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LENS_CASE": {
     "label": "Lens Case",
     "ap_id": 705,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_TRAVEL_TRUNK": {
     "label": "Travel Trunk",
     "ap_id": 707,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_LUMIOSE_GALETTE": {
     "label": "Lumiose Galette",
     "ap_id": 708,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_SHALOUR_SABLE": {
     "label": "Shalour Sable",
     "ap_id": 709,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_MEDICINE"
   },
   "ITEM_JAW_FOSSIL": {
     "label": "Jaw Fossil",
     "ap_id": 710,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_SAIL_FOSSIL": {
     "label": "Sail Fossil",
     "ap_id": 711,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_LOOKER_TICKET": {
     "label": "Looker Ticket",
     "ap_id": 712,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_KEY"
   },
   "ITEM_FAIRY_GEM": {
     "label": "Fairy Gem",
     "ap_id": 715,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": "BAG_ITEMS"
   },
   "ITEM_MEGA_CHARM_": {
     "label": "Mega Charm*",
     "ap_id": 716,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   },
   "ITEM_MEGA_GLOVE": {
     "label": "Mega Glove",
     "ap_id": 717,
     "classification": "FILLER",
-    "tags": []
+    "tags": [],
+    "bag": null
   }
 }

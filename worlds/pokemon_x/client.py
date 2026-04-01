@@ -1,8 +1,9 @@
 from typing import Set, Dict, Optional, TYPE_CHECKING
+
 import worlds._bizhawk as bizhawk
 from worlds._bizhawk.client import BizHawkClient
 from NetUtils import ClientStatus, NetworkItem
-from .items import POCKET_MAP, get_item_name_from_id
+from .items import get_item_name_from_id, get_pocket
 
 if TYPE_CHECKING:
     from worlds._bizhawk.context import BizHawkClientContext
@@ -20,6 +21,24 @@ BADGE_ID_LAST = 1008
 RECEIVED_ITEMS_COUNT_ADDR = 0x08C9FFFF  # <-- REPLACE with real address
 
 BAG_SLOT_SIZE  = 4          # 2 Byte Item_Id + 2 Byte Quantity
+
+
+async def handle_badges(ctx: "BizHawkClientContext") -> bool:
+    new_badges = 0
+    # For every badge the player has gotten 1 is shifted into the position and logically ored with the result
+    # Using or to prevent badges being in items recieved multiple times messing things up
+    for item_id in ctx.items_received:
+        if BADGE_ID_FIRST <= item_id.item <= BADGE_ID_LAST:
+            shifted = 1 << item_id.item - BADGE_ID_FIRST
+            new_badges = new_badges | shifted
+    try:
+        print(f"[PokeX] : Badges {new_badges}")
+        await bizhawk.write(ctx.bizhawk_ctx, [(BADGE_ADDRESS, new_badges.to_bytes(1, "little"), MEM_DOMAIN)])
+    except Exception as e:
+        print(f"[PokeX] Failed to write new item: {e}")
+        return False
+    return True
+
 
 class PokemonXClient(BizHawkClient):
     game         = "Pokemon X"
@@ -44,6 +63,7 @@ class PokemonXClient(BizHawkClient):
         if ctx.server is None or ctx.server.socket.closed or ctx.slot_data is None:
             return
 
+        await handle_badges(ctx)
         await self.handle_received_items(ctx)
         await self.handle_checked_locations(ctx)
 
@@ -165,27 +185,6 @@ async def give_item(ctx: "BizHawkClientContext", item_id: int, quantity: int = 1
     print(f"[PokeX] Couldnt place item {item_name}!")
     return False
 
-def get_pocket(item_id: int):
-    """Return (base_address, max_slots, max_items) for the given item ID, or None."""
-    for id_range, pocket in POCKET_MAP.items():
-        if item_id in id_range:
-            return pocket
-    return None
-
-async def handle_badges(ctx: "BizHawkClientContext") -> bool:
-    new_badges = 0
-    # For every badge the player has gotten 1 is shifted into the position and logically ored with the result
-    # Using or to prevent badges being in items recieved multiple times messing things up
-    for item_id in ctx.items_received:
-        if BADGE_ID_FIRST <= item_id.item <= BADGE_ID_LAST:
-            shifted = 1 << item_id.item - BADGE_ID_FIRST
-            new_badges = new_badges | shifted
-    try:
-        await bizhawk.write(ctx.bizhawk_ctx, [(BADGE_ADDRESS, new_badges, MEM_DOMAIN)])
-    except Exception as e:
-        print(f"[PokeX] Failed to write new item: {e}")
-        return False
-    return True
 
 # ------------------------------------------------------------------ #
 #  Stub — replace with real memory reads                             #

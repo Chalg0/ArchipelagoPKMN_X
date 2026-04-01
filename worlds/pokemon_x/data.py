@@ -10,6 +10,7 @@ class ItemData(NamedTuple):
     ap_id: int
     classification: ItemClassification
     tags: FrozenSet[str]
+    bag: str
 
 class LocationData(NamedTuple):
     name: str
@@ -129,7 +130,8 @@ def _init_items() -> None:
             attributes["label"],
             attributes["ap_id"],
             item_classification,
-            frozenset(attributes["tags"])
+            frozenset(attributes["tags"]),
+            attributes["bag"]
         )
 
 def load_json_data(data_name: str) -> Union[List[Any], Dict[str, Any]]:
