@@ -1,9 +1,4 @@
-from typing import TYPE_CHECKING
-
-from rule_builder.options import OptionFilter
 from rule_builder.rules import Has, HasAll, Rule
-
-from .data import data
 
 
 def set_rules(world: "Pokemon X") -> None:

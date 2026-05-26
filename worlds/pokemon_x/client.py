@@ -32,7 +32,6 @@ async def handle_badges(ctx: "BizHawkClientContext") -> bool:
             shifted = 1 << item_id.item - BADGE_ID_FIRST
             new_badges = new_badges | shifted
     try:
-        print(f"[PokeX] : Badges {new_badges}")
         await bizhawk.write(ctx.bizhawk_ctx, [(BADGE_ADDRESS, new_badges.to_bytes(1, "little"), MEM_DOMAIN)])
     except Exception as e:
         print(f"[PokeX] Failed to write new item: {e}")
@@ -52,7 +51,7 @@ class PokemonXClient(BizHawkClient):
         self.local_checked_locations = set()
 
     async def validate_rom(self, ctx: "BizHawkClientContext") -> bool:
-        # TODO Return False to refuse connection if the wrong ROM/AP patch is loaded
+        # TODO refuse connection if the wrong ROM/AP patch is loaded
 
         ctx.game = self.game  # sets "Pokemon X"
         ctx.items_handling = 0b111  # receive items from anywhere
@@ -74,7 +73,7 @@ class PokemonXClient(BizHawkClient):
             await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
 
     async def handle_received_items(self, ctx: "BizHawkClientContext") -> None:
-        # read how many items the client has already recieved
+        #TODO read how many items the client has already recieved
         try:
             raw = await bizhawk.read(
                 ctx.bizhawk_ctx,
@@ -191,11 +190,7 @@ async def give_item(ctx: "BizHawkClientContext", item_id: int, quantity: int = 1
 # ------------------------------------------------------------------ #
 def get_location_ids() -> Set[int]:
     """
-    TODO: read flags/event bytes from game memory and return the set of
-    Archipelago location IDs that are currently checked in-game.
+    TODO: read flags/event bytes from game memory and return the set of Archipelago location IDs that are currently checked in-game.
+    kinda difficult
     """
     return set()
-
-def launch_client():
-    from worlds._bizhawk.context import launch as bizhawk_launch
-    bizhawk_launch()
