@@ -20,7 +20,7 @@ class PokemonXWebWorld(WebWorld):
 class PokemonXSettings(settings.Group):
     class PokemonXRomFile(settings.UserFilePath):
         description = "Pokemon X ROM File"
-        copy_to = "Pokemon X.cci"
+        copy_to = "Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko).cci"
         md5s = []
         required = False
 
